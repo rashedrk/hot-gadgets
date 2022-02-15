@@ -1,0 +1,19 @@
+.container{
+    margin-bottom: 100px;
+}
+.button-buy-now{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+}
+
+.carousel-indicators div{
+ width: 10px;
+ height: 7px;
+ border-radius: 6px;
+ background-color: rgb(247, 7, 7);
+ margin: 10px 3px;
+
+}
