@@ -5,15 +5,84 @@
     background-color: black;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 8px 15px;
+    border: 1px solid black;
+}
+.button-buy-now:hover{
+    
+    color: black;
+    background-color: white;
+}
+.product-highlight{
+background-image: url(images/bg-2.png);
+background-repeat: no-repeat;
+background-position-x: left;
+background-position-y: bottom;
+background-size: 8%;
+}
+.product-highlight .container{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 5%;
+}
+#carouselExampleIndicators ol.carousel-indicators .active{
+    background-image: linear-gradient(to right, rgb(255, 153, 0), rgb(255, 217, 0));
+    width: 30px;
+}
+#carouselExampleIndicators li {
+    background-color: gray;
+    height: 10px;
+    width: 15px;
+    border-radius: 15px;
+    border: none;
+    
+}
+.card{
+    text-align: center;
+}
+.card .card-footer{
+    border-top: none;
+    background-color: white;
+}
+.see-all-button{
+    text-decoration: none;
+    color: rgb(255, 136, 0);
+}
+.see-all-button:hover{
+    color: rgba(253, 139, 8, 0.726);
+    text-decoration: underline;
+}
+.cat h4{
+    background-image: linear-gradient(to left, rgb(255, 123, 0),rgb(233, 233, 54));
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+    position: absolute ;
+    margin-top: 50px;
+
+}
+.cat-item1, .cat-item2{
+    width: 200px;
+    height: 220px;
+}
+.cat-item1 img, .cat-item2 img{
+    width: 100%;
+}
+.cat-item1 h3, .cat-item2 h3{
+    text-align: center;
+}
+.cat-bg img{
+    width: 100%;
 }
 
-.carousel-indicators div{
- width: 10px;
- height: 7px;
- border-radius: 6px;
- background-color: rgb(247, 7, 7);
- margin: 10px 3px;
-
+.cat-item1{
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
+.cat-item2{
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
